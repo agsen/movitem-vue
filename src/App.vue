@@ -6,7 +6,7 @@ const theme = useStore($theme);
 </script>
 
 <template>
-  <div :data-theme="theme" class="p-4 min-h-screen">
+  <div :data-theme="theme" class="px-4 pt-4 min-h-screen">
     <router-view></router-view>
   </div>
 </template>

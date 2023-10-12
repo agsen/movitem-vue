@@ -71,7 +71,7 @@ const handleScroll = (el: UIEvent) => {
 
     <div
       @scroll="handleScroll"
-      class="relative z-0 p-2 grid md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-4 mt-16 max-h-screen overflow-scroll no-scrollbar rounded-lg"
+      class="relative z-0 p-2 grid md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-4 mt-16 max-h-[calc(100vh-80px)] overflow-scroll no-scrollbar rounded-lg"
     >
       <card
         v-for="movie in movies"
